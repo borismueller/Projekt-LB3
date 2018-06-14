@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+html {
+
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+header {
+	width: 100vw;
+
+	background-color: red;
+}
+
+#container {
+	height: 100%;
+	width: 100vw;
+
+	background-color: blue;
+}

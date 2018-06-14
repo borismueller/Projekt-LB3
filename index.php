@@ -1,13 +1,7 @@
-hi
-
 <form method="post" action="index.php">
 	<input type="text" name="name">
 	<input type="password" name="password">
-	<input type="submit" name="submit">
-</form>
-
-<form method="post" action="index.php">
-	<input type="submit" name="logout" value="logout">
+	<input type="submit" name="submit" value="login">
 </form>
 
 <form method="post" action="index.php">
@@ -135,6 +129,10 @@ function login($name)
 	$_SESSION["username"] = $name;
 
 	echo $_SESSION["username"];
+
+	echo '	<form method="post" action="index.php">
+				<input type="submit" name="logout" value="logout">
+			</form>';
 }
 
 function get_dir() {
